@@ -28,6 +28,12 @@ li {
   margin-right: 36px;
 }
 
+.h2 {
+  font-weight: 2 em;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #949494;
+}
 .text div {
   width: 50%;
 }
