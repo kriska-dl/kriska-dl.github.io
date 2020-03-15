@@ -56,6 +56,13 @@ body {
   color: #333333;
 }
 
+.h2 nav {
+  font-weight: 3 em;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #949494;
+}
+
 @import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans);
 
 nav {
