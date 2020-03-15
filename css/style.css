@@ -77,8 +77,8 @@ nav {
   margin: 0 20px;
 }
 .link-1:hover {
-  border-top: 4px solid #ffffff;
-  border-bottom: 4px solid #ffffff;
+  border-top: 1px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
   padding: 6px 0;
 }
 
