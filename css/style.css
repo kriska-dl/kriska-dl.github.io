@@ -65,7 +65,7 @@ nav {
   background: #ffffff;
 }
 
-.link-1 {
+.link-1:hover {
   transition: 0.3s ease;
   background: #ffffff;
   color: #333333;
@@ -75,12 +75,12 @@ nav {
   padding: 20px 0;
   margin: 0 20px;
 }
-.link-1:hover {
+.link-1 {
   border-bottom: 2px solid #ffffff;
   padding: 6px 0;
 }
 
-.link-2 {
+.link-2:hover {
   transition: 0.6s;
   color: #ffffff;
   font-size: 1 em;
@@ -89,11 +89,11 @@ nav {
   padding: 30px 8px 0 10px;
   margin: 0 10px;
 }
-.link-2:hover {
+.link-2 {
   border-right: 2px dotted #ffffff;
   padding-bottom: 24px;
 }
-.link-3 {
+.link-3:hover {
   transition: 0.4s;
   color: #ffffff;
   font-size: 1 em;
@@ -101,8 +101,8 @@ nav {
   padding: 0 10px;
   margin: 0 10px;
 }
-.link-3:hover {
+.link-3 {
   background-color: #ffffff;
-  color: #eea200;
+  color: #333333;
   padding: 24px 10px;
 }
