@@ -1,7 +1,6 @@
 body {
   margin: 40px;
-  font-family: 'IBM Plex Sans', sans-serif;
-
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .h1 {
@@ -54,8 +53,6 @@ body {
 }
 
 @import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans);
-  margin: 0px;
-}
 
 nav {
   margin-top: 40px;
