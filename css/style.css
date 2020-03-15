@@ -69,15 +69,6 @@ nav {
   background: #ffffff;
 }
 
-.link-1:hover {
-  transition: 0.3s ease;
-  background: #ffffff;
-  color: #333333;
-  font-size: 1em;
-  text-decoration: none;
-  border-bottom: 4px solid #333333;
-}
-
 .link-1 {
   color: #333333;
   font-size: 1 em;
@@ -86,7 +77,7 @@ nav {
   margin-right: 10px;
 }
 
-.link-2:hover {
+.link-1:hover {
   transition: 0.3s ease;
   background: #ffffff;
   color: #333333;
@@ -103,7 +94,7 @@ nav {
   margin-right: 10px;
 }
 
-.link-3:hover {
+.link-2:hover {
   transition: 0.3s ease;
   background: #ffffff;
   color: #333333;
@@ -118,6 +109,15 @@ nav {
   text-decoration: none;
   border-bottom: 2px solid #ffffff;
   margin-right: 10px;
+}
+
+.link-3:hover {
+  transition: 0.3s ease;
+  background: #ffffff;
+  color: #333333;
+  font-size: 1em;
+  text-decoration: none;
+  border-bottom: 4px solid #333333;
 }
 
 body {
