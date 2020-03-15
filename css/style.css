@@ -56,13 +56,6 @@ body {
   color: #333333;
 }
 
-.h2 nav {
-  font-weight: 3 em;
-  line-height: 2;
-  letter-spacing: normal;
-  color: #949494;
-}
-
 @import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans);
 
 nav {
@@ -76,14 +69,6 @@ nav {
   background: #ffffff;
 }
 
-.link-1 {
-  color: #333333;
-  font-size: 1 em;
-  text-decoration: none;
-  border-bottom: 2px solid #ffffff;
-  margin-right: 10px;
-}
-
 .link-1:hover {
   transition: 0.3s ease;
   background: #ffffff;
@@ -93,7 +78,7 @@ nav {
   border-bottom: 4px solid #333333;
 }
 
-.link-2 {
+.link-1 {
   color: #333333;
   font-size: 1 em;
   text-decoration: none;
@@ -110,7 +95,7 @@ nav {
   border-bottom: 4px solid #333333;
 }
 
-.link-3 {
+.link-2 {
   color: #333333;
   font-size: 1 em;
   text-decoration: none;
@@ -127,13 +112,21 @@ nav {
   border-bottom: 4px solid #333333;
 }
 
+.link-3 {
+  color: #333333;
+  font-size: 1 em;
+  text-decoration: none;
+  border-bottom: 2px solid #ffffff;
+  margin-right: 10px;
+}
+
 .body {
   background: #f8f8f8;
 }
 
 .background {
   padding: 50px;
-  background-color: #f8f8f8;
+  background-color: #ffffff;
 }
 
 p {
@@ -155,16 +148,24 @@ p {
 .title-box,
 .desc-box,
 .card {
-  width: 250px;
+  width: 350px;
 }
 
-.image-box {
+.image-box-1 {
   border-radius: 5px 5px 0 0;
   background-color: #f8f8f8;
   margin-bottom: -6px;
-  height: 120px;
-  background: url("https://placehold.jp/250x120.png") center center / cover
-    no-repeat;
+  height: 150px;
+  background: url("https://kriska-dl.github.io/img/Homepage-1.png") center
+    center / cover no-repeat;
+}
+
+.image-box-2 {
+  border-radius: 5px 5px 0 0;
+  background-color: #f8f8f8;
+  margin-bottom: -6px;
+  height: 150px;
+  background: url("") center center / cover no-repeat;
 }
 
 .title-box {
