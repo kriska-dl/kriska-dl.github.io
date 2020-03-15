@@ -3,14 +3,6 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-nav {
-  display: flex;
-  background-color: #ffffff;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 25px 8.3% 163px 8.3%;
-}
-
 .h1 {
   font-weight: 4 em;
   line-height: 2;
@@ -64,6 +56,7 @@ nav {
 body {
   margin: 0px;
 }
+
 nav {
   margin-top: 40px;
   padding: 24px;
