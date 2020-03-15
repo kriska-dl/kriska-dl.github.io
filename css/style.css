@@ -253,7 +253,7 @@ section {
 
   .slide-icon {
     width: 300px;
-    height: auto;
+    height: 300px;
     position: absolute;
     margin-top: -300px;
   }
