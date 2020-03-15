@@ -127,6 +127,9 @@ nav {
 .background {
   background-color: #ffffff;
   margin: 0 40px 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 p {
@@ -165,7 +168,8 @@ p {
   background-color: #f8f8f8;
   margin-bottom: -6px;
   height: 150px;
-  background: url("") center center / cover no-repeat;
+  background: url("https://kriska-dl.github.io/img/Homepage-1.png") center
+    center / cover no-repeat;
 }
 
 .title-box {
