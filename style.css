@@ -15,7 +15,7 @@ body {
 
 .main-container {
   margin: 30px auto;
-  width: 50%;
+  width: 70%;
 }
 
 /* font styles */
@@ -28,7 +28,7 @@ a:active a:hover {
   color: #bb3396;
 }
 
-span.spec-item {
+.spec-item {
   font-size: 14px;
   margin-bottom: 16px;
 }
@@ -130,5 +130,69 @@ li {
 
   ul {
     padding: 2px;
+  }
+}
+
+/* projectpage */
+
+.img-container-bloom {
+  text-align: center;
+}
+
+/* mvp */
+
+.mvp-container {
+  display: flex;
+  width: 100%;
+}
+
+.bloom-pages {
+  width: 70%;
+  margin: 8px;
+  padding: 8px;
+}
+
+.bloom-description {
+  font-size: 14px;
+  width: 30%;
+  margin: 8px;
+  padding: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+  .mvp-container {
+    flex-wrap: wrap;
+  }
+}
+
+/* about */
+.about-wrapper {
+  display: flex;
+  margin: 30px auto;
+  width: 70%;
+}
+.about-col-1 {
+  width: 40%;
+}
+
+.about-col-2 {
+  font-size: 14px;
+  margin-top: 36px;
+  width: 60%;
+}
+
+@media only screen and (max-width: 425px) {
+  .about-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .about-col-1 {
+    width: 100%;
+  }
+
+  .about-col-2 {
+    font-size: 14px;
+    margin-top: 36px;
+    width: 100%;
   }
 }
