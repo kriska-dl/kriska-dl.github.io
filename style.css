@@ -6,12 +6,12 @@
   line-height: 1.5em;
   letter-spacing: 0.1em;
   text-transform: none;
-  color: #946464;
+  color: rgba(0, 0, 0, 0.9);
   margin-left: 12px;
 }
 
-img.logo {
-  width: 60px;
+img.logo.img-fluid {
+  width: 42px;
 }
 
 .nav-text {
@@ -23,16 +23,20 @@ img.logo {
 }
 
 a, a:visited {
-  color: #7a5b5b;
+  color: rgba(0, 0, 0, 0.9);
+  text-decoration: none;
 }
 
 a:hover {
-  color: #5a4343;
+  color: rgba(0, 0, 0, 0.9);;
+  text-decoration: underline;
 }
 
 /* Home */
 .title-container {
-  width: 50%;
   text-align: center;
   margin: auto;
 }
+
+
+

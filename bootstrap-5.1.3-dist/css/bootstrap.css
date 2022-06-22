@@ -55,7 +55,7 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #cd8b8f;
+  --bs-body-color: rgba(0, 0, 0, 0.9);
   --bs-body-bg: #fff;
 }
 
@@ -230,7 +230,7 @@ sup {
 }
 
 a {
-  color: #cd8b8f;
+  color: rgba(0, 0, 0, 0.9);;
   text-decoration: underline;
 }
 a:hover {
